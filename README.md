@@ -43,6 +43,59 @@ export default class App extends Component {
 
 ```
 
+## PropTypes
+```
+static propTypes = {
+    ImageLink: PropTypes.string,
+    ImageHeight: PropTypes.number,
+    HeaderText: PropTypes.string,
+    BodyText: PropTypes.string,
+    BodyColor: PropTypes.string,
+    Link: PropTypes.string,
+    ImageOpacity: PropTypes.number,
+    Height: PropTypes.number,
+    Width: PropTypes.string,
+    alternateText: PropTypes.string,
+    HoverColor: PropTypes.string,
+    Target: PropTypes.string,
+    BodyTextFontSize: PropTypes.number,
+    BodyTextColor: PropTypes.string,
+    HeaderTextFontSize: PropTypes.number,
+    HeaderTextColor: PropTypes.string,
+    HoverBodyTextFontSize: PropTypes.number,
+    HoverBodyTextColor: PropTypes.string,
+    HoverHeaderTextFontSize: PropTypes.number,
+    HoverHeaderTextColor: PropTypes.string,
+    HoverBodyTextFontSize: PropTypes.number,
+    HoverBodyTextColor: PropTypes.string
+  };
+  static defaultProps = {
+    ReadMoreText: 'Read more',
+    ReadMoreColor: 'blue',
+    BodyColor: 'white',   
+    ImageOpacity: 0.5,
+    Height: 300,
+    Link: "https://github.com/onipetheoderic",
+    Width: "22%",
+    ImageHeight: 200,
+    HoverColor: '#008CBA',
+    BodyText: "welcome to theoderic packages",
+    Target: "_blank",
+    BodyTextColor: "#1b2631",
+    BodyTextFontSize: 12,
+    HeaderTextFontSize: 20,
+    HeaderTextColor: "#1b2631",
+    HoverBodyTextFontSize: 12,
+    HoverBodyTextColor: "#1b2631",
+    HoverHeaderTextFontSize: 20,
+    HoverHeaderTextColor: 'white',
+    HoverBodyTextFontSize: 12,
+    HoverBodyTextColor: 'white'
+  }
+
+```
+
+
 ## License
 
 MIT © [onipetheoderic](https://github.com/onipetheoderic)
