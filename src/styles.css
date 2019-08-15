@@ -6,3 +6,112 @@
   border: 2px solid #000;
   font-size: 2em;
 }
+
+.card{
+  border: none;
+  position: relative;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom:20px;
+  box-shadow: 1px 1px 4px #888888;
+}
+
+.container:hover {
+  border: none;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom:20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+
+
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom:20px;
+  box-shadow: 1px 1px 4px #888888;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20%;
+}
+.text2 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header {
+ color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 8px;
+
+}
+.bodytext {
+	color: black;
+	font-size: 13px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+  position: relative;
+  width: 85%!important;
+  height: auto!important;
+  max-width: 300px!important;
+  margin-left: 5%!important;
+  margin-left: 5%!important;
+  margin-top: 20px!important;
+  margin-bottom:20px!important;
+  box-shadow: 1px 1px 4px #888888!important;
+}
+ 
+
+
+
+
+  .innerDiv {
+  	text-align: center;
+  }
+}
